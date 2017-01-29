@@ -1,0 +1,54 @@
+/*
+	Template Name: Daily Shop
+	Author : MarkUps.io
+	Author URI: http://www.markups.io/
+	Version: 1.0
+
+*/
+
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+
+
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'base/_base';
+
+/* MODULES - Individual site components */
+
+@import 'modules/_typography';
+@import 'modules/_buttons';
+
+
+
+/* LAYOUTS - Page layout styles */
+
+
+
+/*==================
+ HEADER SECTION
+====================*/
+
+@import 'layouts/_header';
+
+/*==================
+ NAVBAR SECTION
+====================*/
+
+@import 'layouts/_nav';
+
+/* ALL SECTION */
+
+@import 'modules/_sections';
+
+/*==================
+ FOOTER SECTION
+====================*/
+
+@import 'layouts/_footer';
+
+/*==================
+ RESPONSIVE DESIGN
+====================*/
+
+@import 'modules/_responsive';
